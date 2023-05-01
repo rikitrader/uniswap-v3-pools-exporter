@@ -1,0 +1,29 @@
+{
+    "factory": {
+        "PoolCreated": {
+            "inputs":[
+                {"indexed":true,"internalType":"address","name":"token0","type":"address"},
+                {"indexed":true,"internalType":"address","name":"token1","type":"address"},
+                {"indexed":true,"internalType":"uint24","name":"fee","type":"uint24"},
+                {"indexed":false,"internalType":"int24","name":"tickSpacing","type":"int24"},
+                {"indexed":false,"internalType":"address","name":"pool","type":"address"}
+            ],
+            "anonymous":false,
+            "name":"PoolCreated",
+            "type":"event"
+        }
+    },
+    "token": {
+        "decimals": {
+            "inputs":[],
+            "outputs":[
+                {
+                    "internalType":"uint8","name":"","type":"uint8"
+                }
+            ],
+            "stateMutability":"view",
+            "name":"decimals",
+            "type":"function"
+        }
+    }
+}
