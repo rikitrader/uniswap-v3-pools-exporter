@@ -1,0 +1,9 @@
+{
+    "rpc_urls": [
+        "https://eth.llamarpc.com"
+    ],
+    "factory_address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "batch_size": 10,
+    "retries": 50,
+    "timeout": 250
+}

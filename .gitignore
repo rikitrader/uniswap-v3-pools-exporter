@@ -1,0 +1,16 @@
+# ide
+.vscode/*
+
+# npm
+package-lock.json
+node_modules/*
+
+# eslint
+.eslintrc.json
+
+# project
+dist/*
+
+# git
+.gitcommits
+!**/.gitkeep

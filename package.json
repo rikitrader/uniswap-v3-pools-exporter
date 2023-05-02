@@ -1,0 +1,20 @@
+{
+  "name": "uniswap-v3-pools-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "typescript": "5.0.4",
+    "got": "11.8.6",
+    "web3-eth-abi": "1.9.0"
+  }
+}
